@@ -1,0 +1,19 @@
+# depslib dependency file v1.0
+1676995811 source:c:\documenten\github\ee3d11-cao\lab1\main.cpp
+	<iostream>
+	"computer.hpp"
+	"program.hpp"
+
+1676994387 c:\documenten\github\ee3d11-cao\lab1\computer.hpp
+	<iostream>
+	"program.hpp"
+
+1676996166 source:c:\documenten\github\ee3d11-cao\lab1\computer.cpp
+	"computer.hpp"
+
+1676991374 source:c:\documenten\github\ee3d11-cao\lab1\program.cpp
+	"program.hpp"
+
+1676991498 c:\documenten\github\ee3d11-cao\lab1\program.hpp
+	<iostream>
+
