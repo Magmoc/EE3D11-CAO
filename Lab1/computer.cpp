@@ -36,8 +36,6 @@ double Computer::calculateExecutionTime(Program programUnderTest){
 
     executionTime_s = executionTime_ns / 1e9;
 
-    std::cout << "Execution time (s): " << executionTime_s << std::endl;
-
     return executionTime_s;
 }
 
@@ -47,7 +45,7 @@ double Computer::calculateMIPS(void){
     double cpiGlobal = Computer::calculateGlobalCPI();
 
     // scaling to get to Million per second
-    MIPS = 1e3* clockRateGHz / cpiGlobal;
+    MIPS = 1e9 * clockRateGHz / (1e6* cpiGlobal);
 
     std::cout << "MIPS: " << MIPS << std::endl;
 
@@ -60,7 +58,7 @@ double Computer::calculateMIPS(Program programUnderTest){
     executionTime_s = calculateExecutionTime(programUnderTest);
 
     // scaling to get million instructions per second
-    MIPS = programUnderTest.numTotal / executionTime_s;
+    MIPS = programUnderTest.numTotal / (1e6 * executionTime_s);
 
     std::cout << "MIPS based on program: " << MIPS << std::endl;
 

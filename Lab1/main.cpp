@@ -27,7 +27,8 @@ void assignment1_2(void){
 }
 
 void testComputerSingleProgram(Computer &computerUnderTest, Program programUnderTest){
-    computerUnderTest.calculateExecutionTime(programUnderTest);
+    double executionTime_s = computerUnderTest.calculateExecutionTime(programUnderTest);
+    std::cout << "Execution time (s): " << executionTime_s << std::endl;
     computerUnderTest.calculateMIPS(programUnderTest);
 }
 
