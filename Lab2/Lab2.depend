@@ -1,0 +1,41 @@
+# depslib dependency file v1.0
+1417620775 source:c:\documenten\github\ee3d11-cao\lab2\simulator.cpp
+	<iostream>
+	<string>
+	"simulator.h"
+	"program.h"
+	"registers.h"
+
+1417620775 c:\documenten\github\ee3d11-cao\lab2\simulator.h
+	"registers.h"
+	"program.h"
+
+1677596646 c:\documenten\github\ee3d11-cao\lab2\registers.h
+
+1420454584 c:\documenten\github\ee3d11-cao\lab2\program.h
+	<vector>
+	"instruction.h"
+	"registers.h"
+
+1677600857 c:\documenten\github\ee3d11-cao\lab2\instruction.h
+	<iostream>
+	"registers.h"
+
+1677599301 source:c:\documenten\github\ee3d11-cao\lab2\registers.cpp
+	<iostream>
+	"registers.h"
+
+1677591393 source:c:\documenten\github\ee3d11-cao\lab2\main.cpp
+	"simulator.h"
+	"program.h"
+	"registers.h"
+
+1420454584 source:c:\documenten\github\ee3d11-cao\lab2\program.cpp
+	<vector>
+	"program.h"
+	"instruction.h"
+
+1677598175 source:c:\documenten\github\ee3d11-cao\lab2\instruction.cpp
+	<iostream>
+	"instruction.h"
+
