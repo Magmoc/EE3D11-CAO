@@ -46,14 +46,32 @@ exit_get:
 						# In this moment the array has been 
 						# sorted and is in the stack frame
 
+		# test swap
 		# move $a0, $sp
 		# li   $a1, 0
 		# li	 $a2, 2 
 		# jal swap
+		######################
 
-		la	$a0, str3		# Print of str3
-		li	$v0, 4
-		syscall
+		# test index_minimum
+		# move $a0, $sp
+		# li   $a1, 0
+		# li   $a2, 2 
+		# jal index_minimum
+
+		# move $a0, $v0
+		# li	$v0, 1
+		# syscall
+
+		# move $a0, $sp
+		# li   $a1, 1
+		# li   $a2, 3 
+		# jal index_minimum
+
+		# move $a0, $v0
+		# li	$v0, 1
+		# syscall
+		#####################
 
 		move	$s1, $zero		# i=0
 
@@ -61,7 +79,10 @@ exit_get:
 		
 
 selection_sort:
-		jr 	$ra
+		
+
+_selection_sort_for:
+
 
 index_minimum:
 		# $a0 = v[], $a1 = first, $a2 = last
@@ -78,15 +99,36 @@ index_minimum:
 		add $t1, $a0, $t0	#
 		lw $s1, 0($t1)		#
 
+		move $s0, $a1		# i = first + 1
+		addi $s0, $s0, 1	#
+
+_index_minimum_for:
+		bgt		$s0, $a2, _index_minimum_exit	# for loop condition
 		
+		sll $t0, $s0, 2		# $t2 = v[i]
+		add $t1, $a0, $t0	#
+		lw $t2, 0($t1)		#
 
+		bge $t2, $s1, _index_miminum_endif
 
-		jr 	$ra
+		#if v[i] < min
+		move $s2, $s0 		# mini = i
+		move $s1, $t2 		# min = v[i]
 
-index_minimum_for:
+_index_miminum_endif:
+		addi	$s0, $s0, 1			# i++
+		j _index_minimum_for
+
+_index_minimum_exit:
+		move $v0, $s2				# return mini
+
+		lw		$s0, 0($sp)			# pop $s0 - $s2 from stack
+		lw		$s1, 4($sp)			# 
+		lw		$s2, 8($sp)			# 
+		add		$sp, $sp, 12		# 
+
 		jr		$ra					# jump to $ra
-
-
+		
 
 
 swap:
@@ -122,7 +164,7 @@ for_print:
 		addi	$s1, $s1, 1		# i=i+1
 		j	for_print
 
-exit_print:	add	$sp, $sp, $s0		# elimination of the stack frame 
-              
+exit_print:	
+		add	$sp, $sp, $s0		# elimination of the stack frame       
 		li	$v0, 10			# EXIT
 		syscall				#
