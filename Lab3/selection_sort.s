@@ -75,15 +75,47 @@ exit_get:
 
 		move	$s1, $zero		# i=0
 
-		j exit_print				# jump to exit_print
+		j for_print				# jump to for_print
 		
 
 selection_sort:
+		# $a0 = a[], $a1 = length
+		# $s0 = i, $s1 = mini, $s2 = length - 1
 		
+		sub		$sp, $sp, 16		# push $s0 - $s2, $ra onto stack
+		sw		$s0, 0($sp)			# 
+		sw		$s1, 4($sp)			# 
+		sw		$s2, 8($sp)			# 
+		sw		$ra, 12($sp)		# 
 
+		move	$s0, $zero			# i = 0
+		addi	$s2, $a1, -1		# $s2 = length - 1
+		
 _selection_sort_for:
+		bge		$s0, $s2, _selection_sort_exit
+		
+		move $a0, $a0
+		move $a1, $s0		# load i and lenght-1 in arguments. a is already in $a0
+		move $a2, $s2 		#
+		jal index_minimum 	# call index_minimum
+		move $s1, $v0 		# mini = return value
 
+		move $a0, $a0
+		move $a1, $s0
+		move $a2, $s1 		# load mini into $a2, other arguments have already been set
+		jal swap
 
+		j _selection_sort_for
+
+_selection_sort_exit:
+		lw		$s0, 0($sp)			# pop $s0 - $s2, $ra from stack
+		lw		$s1, 4($sp)			# 
+		lw		$s2, 8($sp)			# 
+		lw		$ra, 12($sp)		# 
+		add		$sp, $sp, 16		# 
+
+		jr		$ra	
+		
 index_minimum:
 		# $a0 = v[], $a1 = first, $a2 = last
 		# $s0 = i, $s1 = min, $s2 = mini
@@ -129,8 +161,6 @@ _index_minimum_exit:
 
 		jr		$ra					# jump to $ra
 		
-
-
 swap:
 		# $a0 = v[], $a1 = i, $a2 = j
 		
