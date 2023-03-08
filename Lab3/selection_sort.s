@@ -105,6 +105,7 @@ _selection_sort_for:
 		move $a2, $s1 		# load mini into $a2, other arguments have already been set
 		jal swap
 
+		addi 	$s0, $s0, 1			# i++
 		j _selection_sort_for
 
 _selection_sort_exit:
