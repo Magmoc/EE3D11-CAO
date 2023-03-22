@@ -1,0 +1,36 @@
+# depslib dependency file v1.0
+1678807021 source:h:\my documents\arm_projects\arm_assignment_1\main.c
+	"LPC13xx.h"
+	"sLEDje.h"
+	"delay.h"
+
+1678805643 h:\my documents\arm_projects\arm_assignment_1\lpc13xx.h
+	"core_cm3.h"
+	"system_LPC13xx.h"
+
+1516341282 h:\my documents\arm_projects\arm_assignment_1\core_cm3.h
+	<stdint.h>
+	<core_cmInstr.h>
+	<core_cmFunc.h>
+
+1516341282 h:\my documents\arm_projects\arm_assignment_1\system_lpc13xx.h
+	<stdint.h>
+
+1516341282 source:h:\my documents\arm_projects\arm_assignment_1\startup.c
+	<stdint.h>
+	"LPC13xx.h"
+
+1516341282 source:h:\my documents\arm_projects\arm_assignment_1\system_lpc13xx.c
+	<stdint.h>
+	"LPC13xx.h"
+
+1678805427 h:\my documents\arm_projects\arm_assignment_1\sledje.h
+	<stdbool.h>
+
+1546865174 source:h:\my documents\arm_projects\arm_assignment_1\delay.c
+	<stdint.h>
+	"LPC13xx.h"
+
+1513593484 h:\my documents\arm_projects\arm_assignment_1\delay.h
+	<stdint.h>
+

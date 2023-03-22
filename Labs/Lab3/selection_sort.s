@@ -136,7 +136,7 @@ index_minimum:
 		addi $s0, $s0, 1	#
 
 _index_minimum_for:
-		bgt		$s0, $a2, _index_minimum_exit	# for loop condition
+		bgt	$s0, $a2, _index_minimum_exit	# for loop condition
 		
 		sll $t0, $s0, 2		# $t2 = v[i]
 		add $t1, $a0, $t0	#

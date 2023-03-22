@@ -1,0 +1,24 @@
+# depslib dependency file v1.0
+1678808388 source:h:\my documents\arm_projects\arm_assignment_2\main.c
+	"LPC13xx.h"
+
+1516341282 h:\my documents\arm_projects\arm_assignment_2\lpc13xx.h
+	"core_cm3.h"
+	"system_LPC13xx.h"
+
+1516341282 h:\my documents\arm_projects\arm_assignment_2\core_cm3.h
+	<stdint.h>
+	<core_cmInstr.h>
+	<core_cmFunc.h>
+
+1516341282 h:\my documents\arm_projects\arm_assignment_2\system_lpc13xx.h
+	<stdint.h>
+
+1516341282 source:h:\my documents\arm_projects\arm_assignment_2\startup.c
+	<stdint.h>
+	"LPC13xx.h"
+
+1516341282 source:h:\my documents\arm_projects\arm_assignment_2\system_lpc13xx.c
+	<stdint.h>
+	"LPC13xx.h"
+
