@@ -1,0 +1,73 @@
+{H:/My Documents/CAO_VHDL/memory.vhdl} {1 {vcom -work work -2002 -explicit -vopt -stats=none {H:/My Documents/CAO_VHDL/memory.vhdl}
+QuestaSim-64 vcom 10.6g Compiler 2019.08 Aug  3 2019
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity memory
+-- Compiling architecture behavior of memory
+
+} {} {}} {H:/My Documents/CAO_VHDL/mips.vhdl} {0 {vcom -work work -2002 -explicit -vopt -stats=none {H:/My Documents/CAO_VHDL/mips.vhdl}
+QuestaSim-64 vcom 10.6g Compiler 2019.08 Aug  3 2019
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity mips
+-- Compiling architecture behavior of mips
+** Error: H:/My Documents/CAO_VHDL/mips.vhdl(180): near "readdata2": (vcom-1576) expecting ',' or ')'.
+** Error: H:/My Documents/CAO_VHDL/mips.vhdl(183): Statement cannot be labeled.
+** Error: H:/My Documents/CAO_VHDL/mips.vhdl(221): VHDL Compiler exiting
+
+} {9.0 12.0} {}} {H:/My Documents/CAO_VHDL/mips_tb.vhdl} {1 {vcom -work work -2002 -explicit -vopt -stats=none {H:/My Documents/CAO_VHDL/mips_tb.vhdl}
+QuestaSim-64 vcom 10.6g Compiler 2019.08 Aug  3 2019
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity mips_tb
+-- Compiling architecture behaviour of mips_tb
+
+} {} {}} {H:/My Documents/CAO_VHDL/alucontrol.vhdl} {1 {vcom -work work -2002 -explicit -vopt -stats=none {H:/My Documents/CAO_VHDL/alucontrol.vhdl}
+QuestaSim-64 vcom 10.6g Compiler 2019.08 Aug  3 2019
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity alucontrol
+-- Compiling architecture behavior of alucontrol
+
+} {} {}} {H:/My Documents/CAO_VHDL/pc.vhdl} {1 {vcom -work work -2002 -explicit -vopt -stats=none {H:/My Documents/CAO_VHDL/pc.vhdl}
+QuestaSim-64 vcom 10.6g Compiler 2019.08 Aug  3 2019
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity pc
+-- Compiling architecture behavior of pc
+
+} {} {}} {H:/My Documents/CAO_VHDL/registers.vhdl} {1 {vcom -work work -2002 -explicit -vopt -stats=none {H:/My Documents/CAO_VHDL/registers.vhdl}
+QuestaSim-64 vcom 10.6g Compiler 2019.08 Aug  3 2019
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity registers
+-- Compiling architecture behavior of registers
+
+} {} {}} {H:/My Documents/CAO_VHDL/extend.vhdl} {1 {vcom -work work -2002 -explicit -vopt -stats=none {H:/My Documents/CAO_VHDL/extend.vhdl}
+QuestaSim-64 vcom 10.6g Compiler 2019.08 Aug  3 2019
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity extend
+-- Compiling architecture behavior of extend
+
+} {} {}} {H:/My Documents/CAO_VHDL/test.vhdl} {1 {vcom -work work -2002 -explicit -vopt -stats=none {H:/My Documents/CAO_VHDL/test.vhdl}
+QuestaSim-64 vcom 10.6g Compiler 2019.08 Aug  3 2019
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity memory
+-- Compiling architecture behavior of memory
+
+} {} {}}

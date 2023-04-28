@@ -1,0 +1,96 @@
+{H:/My Documents/CAO_VHDL/project/pc.vhdl} {1 {vcom -work work -2002 -explicit -vopt -stats=none {H:/My Documents/CAO_VHDL/project/pc.vhdl}
+QuestaSim-64 vcom 10.6g Compiler 2019.08 Aug  3 2019
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity pc
+-- Compiling architecture behavior of pc
+
+} {} {}} {H:/My Documents/CAO_VHDL/project/alucontrol.vhdl} {1 {vcom -work work -2002 -explicit -vopt -stats=none {H:/My Documents/CAO_VHDL/project/alucontrol.vhdl}
+QuestaSim-64 vcom 10.6g Compiler 2019.08 Aug  3 2019
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity alucontrol
+-- Compiling architecture behavior of alucontrol
+
+} {} {}} {H:/My Documents/CAO_VHDL/project/test.vhdl} {1 {vcom -work work -2002 -explicit -vopt -stats=none {H:/My Documents/CAO_VHDL/project/test.vhdl}
+QuestaSim-64 vcom 10.6g Compiler 2019.08 Aug  3 2019
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity memory
+-- Compiling architecture behavior of memory
+
+} {} {}} {H:/My Documents/CAO_VHDL/project/registers.vhdl} {1 {vcom -work work -2002 -explicit -vopt -stats=none {H:/My Documents/CAO_VHDL/project/registers.vhdl}
+QuestaSim-64 vcom 10.6g Compiler 2019.08 Aug  3 2019
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity registers
+-- Compiling architecture behavior of registers
+
+} {} {}} {H:/My Documents/CAO_VHDL/project/jump.vhdl} {1 {vcom -work work -2002 -explicit -vopt -stats=none {H:/My Documents/CAO_VHDL/project/jump.vhdl}
+QuestaSim-64 vcom 10.6g Compiler 2019.08 Aug  3 2019
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity jump
+-- Compiling architecture behavior of jump
+
+} {} {}} {H:/My Documents/CAO_VHDL/project/extend.vhdl} {1 {vcom -work work -2002 -explicit -vopt -stats=none {H:/My Documents/CAO_VHDL/project/extend.vhdl}
+QuestaSim-64 vcom 10.6g Compiler 2019.08 Aug  3 2019
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity extend
+-- Compiling architecture behavior of extend
+
+} {} {}} {H:/My Documents/CAO_VHDL/project/mips.vhdl} {1 {vcom -work work -2002 -explicit -vopt -stats=none {H:/My Documents/CAO_VHDL/project/mips.vhdl}
+QuestaSim-64 vcom 10.6g Compiler 2019.08 Aug  3 2019
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity mips
+-- Compiling architecture behavior of mips
+
+} {} {}} {H:/My Documents/CAO_VHDL/project/memory.vhdl} {1 {vcom -work work -2002 -explicit -vopt -stats=none {H:/My Documents/CAO_VHDL/project/memory.vhdl}
+QuestaSim-64 vcom 10.6g Compiler 2019.08 Aug  3 2019
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity memory
+-- Compiling architecture behavior of memory
+
+} {} {}} {H:/My Documents/CAO_VHDL/project/control.vhdl} {1 {vcom -work work -2002 -explicit -vopt -stats=none {H:/My Documents/CAO_VHDL/project/control.vhdl}
+QuestaSim-64 vcom 10.6g Compiler 2019.08 Aug  3 2019
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity control
+-- Compiling architecture behavior of control
+
+} {} {}} {H:/My Documents/CAO_VHDL/project/mips_tb.vhdl} {1 {vcom -work work -2002 -explicit -vopt -stats=none {H:/My Documents/CAO_VHDL/project/mips_tb.vhdl}
+QuestaSim-64 vcom 10.6g Compiler 2019.08 Aug  3 2019
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity mips_tb
+-- Compiling architecture behaviour of mips_tb
+
+} {} {}} {H:/My Documents/CAO_VHDL/project/alu.vhdl} {1 {vcom -work work -2002 -explicit -vopt -stats=none {H:/My Documents/CAO_VHDL/project/alu.vhdl}
+QuestaSim-64 vcom 10.6g Compiler 2019.08 Aug  3 2019
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity alu
+-- Compiling architecture behavior of alu
+
+} {} {}}
